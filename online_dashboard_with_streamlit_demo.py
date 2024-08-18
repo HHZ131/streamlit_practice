@@ -13,6 +13,53 @@ from streamlit_echarts import st_pyecharts
 import numpy as np
 import pandas as pd
 
+#Add a sidebar for general information
+with st.sidebar:
+	st.markdown("""
+	# Real Estate Agency Operations Dashboard Demonstration
+
+	## Overview
+
+	This dashboard is designed to monitor and locate issues during the operation of a real estate agency company. It provides a structured approach to identify and address key operational challenges, ensuring the company remains profitable and efficient.
+
+	## Features
+
+	### 1. Company-Level Analysis
+	- **Profitability Check**: Determine if the company is profitable.
+	- **Issue Identification**: Identify if profitability issues are due to:
+	  - High general commission rates
+	  - High fixed salaries
+	  - Low sales
+	  - Low sales per person
+
+	### 2. Sales and Salary Structure Comparison
+	- **Treemap Visualization**: Compare sales contribution structure with salary distribution structure.
+	- **Key Insights**:
+	  - Identify the main contributors to total sales.
+	  - Assess if compensation is reasonable at different levels.
+	  - Evaluate management compensation.
+	  - Determine if hiring practices are leading to salary distribution burdens.
+
+	### 3. Operational Level Analysis
+	- **Contribution Assessment**: Evaluate if each level makes enough contributions to cover their salaries.
+	- **Commission Ratio Check**: Ensure commission ratios are reasonable.
+	- **Diagnostic Table**: Use colored signals for quick and precise diagnosis.
+	- **Bar-in-Bar Chart**: Visualize contributions and management commissions intuitively.
+
+	### 4. Management Level Analysis
+	- **Salary Assessment**: Check if manager salaries are too high.
+	- **Commission Evaluation**: Determine if management commissions are excessive.
+	- **Bandwidth Analysis**: Ensure managers are managing an appropriate number of people.
+
+	## Summary
+
+	This dashboard uses a top-down approach to quickly and precisely locate operational issues within the company. It helps in making informed decisions to improve overall efficiency and profitability.
+	"""
+	)
+
+#-----------------------------------------------------------
+#dashboard deployment start here
+#-----------------------------------------------------------
 #global functions
 def label_format(label: str, formatting_dict = None):
 	#extract formatting information
@@ -67,6 +114,7 @@ def conditional_formatting(value: float, vmin = None, vmax = None, color_list = 
 	
 	return generate_output(color)
 
+#------------------------------------------------------------------------------------------------------
 #Company level main matrics
 #set formatting
 label_format_dict = {"size": 18,
