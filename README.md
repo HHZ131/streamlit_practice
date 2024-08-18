@@ -1,40 +1,71 @@
-# KE Holdings Agency Company Analysis Dashboard
+# Real Estate Agency Operations Dashboard
 
-Welcome to the KE Holdings Agency Company Analysis Dashboard! This interactive tool is designed to provide comprehensive insights into the performance and metrics of KE Holdings agencies. Below is an overview of the key features and functionalities of the dashboard:
+## Overview
 
-## Key Features
+This dashboard is designed to monitor and locate issues during the operation of a real estate agency company. It provides a structured approach to identify and address key operational challenges, ensuring the company remains profitable and efficient.
 
-### 1. **Overview Section**
-- **Summary Metrics**: Displays key performance indicators (KPIs) such as total revenue, number of transactions, and average transaction value.
-- **Trends**: Visualizes trends over time for critical metrics, helping you identify patterns and make data-driven decisions.
+## Features
 
-### 2. **Agency Performance**
-- **Agency Comparison**: Compare performance metrics across different agencies to identify top performers and areas needing improvement.
-- **Detailed Metrics**: Dive deep into specific metrics for each agency, including revenue, transaction volume, and customer satisfaction scores.
+### 1. Company-Level Analysis
+- **Profitability Check**: Determine if the company is profitable.
+- **Issue Identification**: Identify if profitability issues are due to:
+  - High general commission rates
+  - High fixed salaries
+  - Low sales
+  - Low sales per person
 
-### 3. **Geographical Analysis**
-- **Map Visualization**: Interactive map showing the geographical distribution of agencies and their performance metrics.
-- **Regional Insights**: Analyze performance by region to understand market dynamics and regional trends.
+### 2. Sales and Salary Structure Comparison
+- **Treemap Visualization**: Compare sales contribution structure with salary distribution structure.
+- **Key Insights**:
+  - Identify the main contributors to total sales.
+  - Assess if compensation is reasonable at different levels.
+  - Evaluate management compensation.
+  - Determine if hiring practices are leading to salary distribution burdens.
 
-### 4. **Customer Insights**
-- **Demographics**: Breakdown of customer demographics, including age, gender, and location.
-- **Customer Feedback**: Aggregated customer feedback and satisfaction scores to gauge customer sentiment and identify areas for improvement.
+### 3. Operational Level Analysis
+- **Contribution Assessment**: Evaluate if each level makes enough contributions to cover their salaries.
+- **Commission Ratio Check**: Ensure commission ratios are reasonable.
+- **Diagnostic Table**: Use colored signals for quick and precise diagnosis.
+- **Bar-in-Bar Chart**: Visualize contributions and management commissions intuitively.
 
-### 5. **Financial Analysis**
-- **Revenue Breakdown**: Detailed breakdown of revenue sources and financial performance.
-- **Expense Tracking**: Monitor and analyze expenses to ensure financial efficiency and profitability.
+### 4. Management Level Analysis
+- **Salary Assessment**: Check if manager salaries are too high.
+- **Commission Evaluation**: Determine if management commissions are excessive.
+- **Bandwidth Analysis**: Ensure managers are managing an appropriate number of people.
 
-### 6. **Custom Reports**
-- **Report Generation**: Generate custom reports based on selected metrics and timeframes.
-- **Export Options**: Export reports in various formats (PDF, Excel) for offline analysis and sharing.
+## Summary
 
-## How to Use the Dashboard
+This dashboard uses a top-down approach to quickly and precisely locate operational issues within the company. It helps in making informed decisions to improve overall efficiency and profitability.
 
-1. **Navigation**: Use the sidebar to navigate between different sections of the dashboard.
-2. **Filters**: Apply filters to customize the data displayed based on specific criteria such as date range, region, or agency.
-3. **Interactivity**: Click on charts and graphs to drill down into detailed views and explore the data further.
-4. **Exporting Data**: Use the export options to download reports and visualizations for offline use.
+## Getting Started
 
-## Conclusion
+To get started with this dashboard, follow these steps:
 
-The KE Holdings Agency Company Analysis Dashboard is a powerful tool for monitoring and analyzing the performance of KE Holdings agencies. By leveraging the insights provided, you can make informed decisions to drive growth and improve operational efficiency.
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/real-estate-dashboard.git
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    cd real-estate-dashboard
+    npm install
+    ```
+
+3. **Run the dashboard**:
+    ```bash
+    npm start
+    ```
+
+## Contributing
+
+We welcome contributions to improve this dashboard. Please fork the repository and submit pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+Thanks to everyone who contributed to the development of this dashboard.
+
