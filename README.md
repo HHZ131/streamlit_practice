@@ -1,5 +1,9 @@
 # Real Estate Agency Operations Dashboard
 
+## View the Dashboard
+
+**Note**: For the best experience, please open the dashboard in dark mode. You can adjust this setting from the menu on the top right corner of the page.
+
 ## Overview
 
 This dashboard is designed to monitor and locate issues during the operation of a real estate agency company. It provides a structured approach to identify and address key operational challenges, ensuring the company remains profitable and efficient.
@@ -37,26 +41,6 @@ This dashboard is designed to monitor and locate issues during the operation of 
 
 This dashboard uses a top-down approach to quickly and precisely locate operational issues within the company. It helps in making informed decisions to improve overall efficiency and profitability.
 
-## Getting Started
-
-To get started with this dashboard, follow these steps:
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/yourusername/real-estate-dashboard.git
-    ```
-
-2. **Install dependencies**:
-    ```bash
-    cd real-estate-dashboard
-    npm install
-    ```
-
-3. **Run the dashboard**:
-    ```bash
-    npm start
-    ```
-
 ## Contributing
 
 We welcome contributions to improve this dashboard. Please fork the repository and submit pull requests.
@@ -68,4 +52,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 Thanks to everyone who contributed to the development of this dashboard.
-
