@@ -18,6 +18,10 @@ with st.sidebar:
 	st.markdown("""
 	# Real Estate Agency Operations Dashboard Demonstration
 
+	Link to this dashboard: https://keholdings-agency-company-analysis-dashboard-demonstration.streamlit.app/
+
+	***Note**: For the best experience, please open the dashboard in dark mode. You can adjust this setting from the menu on the top right corner of the page.*
+
 	## Overview
 
 	This dashboard is designed to monitor and locate issues during the operation of a real estate agency company. It provides a structured approach to identify and address key operational challenges, ensuring the company remains profitable and efficient.
